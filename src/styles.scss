@@ -1,0 +1,485 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.virsraksti{
+  font-weight: 700;
+}
+
+body{
+  font-family: 'Heebo', sans-serif;
+  color: #21243D;
+  width: 100%;
+  max-width: 1152px;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 27px;
+  padding-right: 60px;
+}
+
+.burger-element{
+  display: none;
+
+}
+
+ul{
+  display: flex;
+  gap: 33px;
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color:#000000;
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+.content-bouth{
+  display: flex;
+  padding-top: 210px;
+  padding-left: 148px;
+  padding-right: 149px;
+  padding-bottom: 71px;
+  gap: 106px;
+  flex-wrap: wrap;
+}
+
+.content-left{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 500px;
+  
+}
+
+.button{
+  max-width: 208px;
+  padding: 12px 20px;
+  background-color: #FF6464;
+  border: none;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.pic-right{
+  width: 243px;
+  height: 243px;
+}
+
+
+
+@media (max-width: 425px) {
+  nav ul{
+    display: none;
+  }
+
+  .burger-element{
+    display: flex;
+    
+  }
+
+  
+  .content-bouth {
+      flex-direction: column;
+      padding: 40px 24px;
+      width: 100%;
+      max-width: 425px;
+      
+
+  }
+
+  .content-left{
+    order: 2;
+    align-items: center;
+    justify-content: center !important;
+    display: flex;
+    text-align: center;
+    
+  }
+
+
+  .pic-right {
+      width: 170px !important;
+      height: 170px !important;
+      order: 1;
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 50%;
+      
+  }
+
+  .bildes-abi-elementi{
+    padding: 25px 11px !important;
+    max-width: 425px;
+  }
+  .making-creating{
+    flex-direction: column;
+    display: flex;
+  }
+  .pazudis{
+    display: none;
+  }
+
+  .virsraksti{
+    justify-content: center;
+    display: flex;
+  }
+
+  .image-1{
+    width: 100% !important;
+    box-sizing: content-box;
+  }
+}
+
+
+
+
+.section-2{
+  background-image: url(assets/images/Rectangle.png); 
+  width: 100%; 
+  height: 100%;
+}
+.bildes-abi-elementi{
+  padding: 32px 148px;
+}
+
+
+.nav-divi{
+}
+
+.divi-ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.making-creating{
+  display: flex;
+  gap: 20px;
+  padding-top: 22px;
+}
+
+.making-box{
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  width: 100%;
+  padding: 24px;
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.creating-box{
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  width: 100%;
+  padding: 24px;
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+@media (max-width: 425px) {
+  .section-3{
+    padding: 12px 15px !important;
+  }
+  .kartina{
+    display: flex;
+    flex-direction: column;
+  }
+  .image-1{
+    width: 100%;
+  }
+}
+
+
+
+
+.section-3{
+  display: flex;
+  flex-direction: column;
+  padding-left: 146px;
+  padding-right: 146px;
+  padding-top: 15px;
+  padding-bottom: 83px;
+}
+
+.pedejais-virsraksts{
+  font-size: 22px;
+}
+
+.tris-katinas{
+  padding-top: 22px;
+}
+
+.kartina{
+  display: flex;
+  gap: 18px;
+  padding-bottom: 15px;
+  
+}
+
+.kartina-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.videjais-texts{
+  display: flex;
+  gap: 36px;
+} 
+
+.gads-box{
+  width: 65px;
+  height: 25px;
+  background-color: #142850;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.linija-box{
+  padding: 15px 0px;
+}
+
+.linija{
+  width: 100%;
+  background-color: #E0E0E0;
+  border-radius: 1px;
+  height: 1px;
+  
+}
+
+.footer-pedejais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 51px 0;
+  gap: 26px;
+}
+
+
+
+
+
+
+
+
+.section-boxes {
+  color: #E0E0E0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-boxes {
+  background-color: #000000;
+  
+  text-align: center;
+  padding: 30px;
+  width: 50%;
+}
+
+.menu-boxes {
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  width: 50%;
+}
+
+.hero-boxes {
+  background-color: rgb(26, 140, 179);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 80px;
+  width: 100%;
+}
+
+
+
+.main-boxes {
+  background: #21243D;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  padding: 30px;
+  width: 50%;
+}
+
+.white-boxes {
+  background-color: #FFFFFF;
+  flex-grow: 1;
+  padding: 30px;
+  width: 25%;
+}
+
+.divas-boxes{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.image-boxes {
+  background-color: rgb(136, 167, 136);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  
+  
+}
+
+.extra-boxes {
+  background-color: rgb(39, 179, 26);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  
+}
+
+.banner-boxes {
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  color: #000000;
+  width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  .section-boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .white-boxes {
+    display: none;
+    
+  }
+
+  .header-boxes {
+    width: 100%;
+    
+  }
+
+  .menu-boxes {
+    padding: 150px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    order: 1;
+  }
+
+  .hero-boxes {
+    
+  }
+
+  .main-boxes {
+    
+  }
+
+  .divas-boxes{
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .image-boxes {
+    width: 50%;
+  }
+
+  .extra-boxes {
+    width: 50%;
+  }
+
+  .banner-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 425px) {
+  
+  .section-boxes {
+    width: 100%;
+  }
+
+  .white-boxes {
+    
+    
+  }
+
+  .header-boxes {
+    width: 100%;
+    
+  }
+
+  .menu-boxes {
+    width: 100%;
+    padding: 30px 30px;
+    order: 0;
+  }
+
+  .hero-boxes {
+    width: 100%;
+  }
+
+  .main-boxes {
+    width: 100%;
+  }
+
+  .divas-boxes{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    order: 6;
+  }
+
+  .extra-boxes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    order: 5;
+  }
+
+  .banner-boxes {
+    width: 100%; 
+    
+}
+}
